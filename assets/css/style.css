@@ -66,8 +66,8 @@ p {
 nav {
    position: absolute;
    right: 0px;
-   top: 22px; 
-    
+   transform: translateY(100%);
+   top: 50%; 
 }
 .header {
     width: 960px;
