@@ -8,7 +8,7 @@
     border-color: #dddddd;
     border-width: 2px;
     margin: 0 auto;
-
+    min-height: 100%; 
 }
 #pic {
     width: 25%;
@@ -36,6 +36,8 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;  
     margin: 0;
+    height: auto;
+    min-height: 100%;
 }
 
 h2 {
@@ -77,6 +79,9 @@ a {
     text-decoration-line: none;
     padding: 0 10px;
 }
+a:hover {
+    color: #4aaaa5;
+}
 #center {
     border-style: solid;
     border-width: 0 1px 0 1px;
@@ -89,10 +94,11 @@ footer {
     border-color: #4aaaa5; 
     background-color: #666666;
     text-align: center;
-    overflow: auto;
     padding: 30px 0 10px 0;
     font-size: 10px;
-    margin-top: 200px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
 }
 .label {
     background-color: #4aaaa5;
@@ -113,11 +119,15 @@ footer {
     float:left; 
     margin-left: 30px;
     margin-bottom: 50px;
-    clear: right;;
+    clear: right;
 } 
+.gallery:hover {
+    opacity: 0.4;
+}
 img {
     width: 100%;
 }
+
 input, textarea {
     width: 100%;
     padding: 8px 8px;
@@ -136,7 +146,11 @@ button {
     font-size: 15px;
     padding: 10px 20px;
 }
-.wrap {
+button:hover {
+    background-color: #1C403E;
+    color: #777777;
+}
+.grid {
     width: 65%;
     float: left;
 }
