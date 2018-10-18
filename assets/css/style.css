@@ -118,3 +118,21 @@ footer {
 img {
     width: 100%;
 }
+input, textarea {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 10px 0 15px 0; 
+}
+textarea {
+    height: 200px;
+}
+form {
+    width: 100%;
+    padding: 0 30px 30px 30px;   
+}
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px;
+}
