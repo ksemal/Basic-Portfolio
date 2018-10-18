@@ -108,7 +108,7 @@ footer {
     
 }  
 .gallery {
-    width: 30.3%;
+    width: 45%;
     position: relative;
     float:left; 
     margin-left: 30px;
@@ -135,4 +135,8 @@ button {
     color: #ffffff;
     font-size: 15px;
     padding: 10px 20px;
+}
+.wrap {
+    width: 65%;
+    float: left;
 }
